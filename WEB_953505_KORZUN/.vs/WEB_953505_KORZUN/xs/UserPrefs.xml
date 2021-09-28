@@ -1,0 +1,32 @@
+﻿<Properties StartupConfiguration="{9A81843C-EF04-4495-A19A-A184DB517623}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="WEB_953505_KORZUN/wwwroot/css/site.css">
+    <Files>
+      <File FileName="WEB_953505_KORZUN/Program.cs" Line="16" Column="47" />
+      <File FileName="WEB_953505_KORZUN/wwwroot/lab1.html" Line="107" Column="27" />
+      <File FileName="WEB_953505_KORZUN/wwwroot/css/site.css" Line="7" Column="8" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="WEB_953505_KORZUN" expanded="True">
+            <Node name="WEB_953505_KORZUN" expanded="True">
+              <Node name="Views" expanded="True" />
+              <Node name="wwwroot" expanded="True">
+                <Node name="css" expanded="True">
+                  <Node name="site.css" selected="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.WEB__953505__KORZUN PreferredExecutionTarget="/Applications/Google Chrome.app" />
+</Properties>
