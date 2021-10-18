@@ -6,8 +6,6 @@ namespace WEB_953505_KORZUN.Entities
 {
     public class ApplicationUser : IdentityUser
     {
-        public ApplicationUser()
-        {
-        }
+        public byte[] AvatarImage { get; set; }
     }
 }

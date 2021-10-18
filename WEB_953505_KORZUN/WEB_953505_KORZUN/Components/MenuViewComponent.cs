@@ -19,17 +19,18 @@ namespace WEB_953505_KORZUN.Components
             var controller = ViewContext.RouteData.Values["controller"];
             var page = ViewContext.RouteData.Values["page"];
             var area = ViewContext.RouteData.Values["area"];
-            return View(menuItems);
-            foreach(var item in menuItems)
+            foreach (var item in menuItems)
             {
-                bool controllerMatch = controller.Equals(item.ControllerName);
-                bool areaMatch = area.Equals(item.AreaName);
+                bool controllerMatch = controller?.Equals(item.ControllerName) ?? false;
+                bool areaMatch = area?.Equals(item.AreaName) ?? false;
                 if (controllerMatch || areaMatch)
                 {
                     item.Active = "active";
                 }
 
             }
+            return View(menuItems);
+
         }
     }
 }
