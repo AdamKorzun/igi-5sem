@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Logging;
 using WEB_953505_KORZUN.Data;
 using WEB_953505_KORZUN.Entities;
 using WEB_953505_KORZUN.Extensions;
@@ -13,11 +14,15 @@ namespace WEB_953505_KORZUN.Controllers
     {
         int _pageSize;
 
+        private ILogger _logger;
+
         ApplicationDbContext _context;
-        public ProductController(ApplicationDbContext context)
+        public ProductController(ApplicationDbContext context,
+            ILogger<ProductController> logger)
         {
             _pageSize = 3;
             _context = context;
+            _logger = logger;
 
         }
         [Route("Catalog")]
@@ -28,6 +33,7 @@ namespace WEB_953505_KORZUN.Controllers
             ViewData["CurrentGroup"] = group ?? 0;
             var productsFiltered = _context.Products
                 .Where(d => !group.HasValue || d.ProductGroupId == group.Value);
+            //_logger.LogInformation($"info: group={group}, page={pageNo}");
             var model = ListViewModel<Product>.GetModel(productsFiltered, pageNo,_pageSize);
             if (Request.IsAjaxRequest())
             {

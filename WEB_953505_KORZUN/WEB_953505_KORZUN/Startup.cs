@@ -8,6 +8,11 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using System;
+using Microsoft.AspNetCore.Http;
+using WEB_953505_KORZUN.Models;
+using WEB_953505_KORZUN.Services;
+using Microsoft.Extensions.Logging;
+using WEB_953505_KORZUN.Extensions;
 
 namespace WEB_953505_KORZUN
 {
@@ -48,11 +53,18 @@ namespace WEB_953505_KORZUN
                 options.LogoutPath = $"/Identity/Account/Logout";
             });
             services.AddAuthorization();
-    
+            services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
+            services.AddScoped<Cart>(sp => CartService.GetCart(sp));
             services.AddControllersWithViews();
             services.AddRazorPages();
             services.AddMvcCore();
-            
+            services.AddDistributedMemoryCache();
+            services.AddSession(opt =>
+            {
+                opt.Cookie.HttpOnly = true;
+                opt.Cookie.IsEssential = true;
+            });
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -60,8 +72,11 @@ namespace WEB_953505_KORZUN
             IWebHostEnvironment env,
             ApplicationDbContext context,
             UserManager<ApplicationUser> userManager,
-            RoleManager<IdentityRole> roleManager)
+            RoleManager<IdentityRole> roleManager,
+            ILoggerFactory logger)
         {
+            logger.AddFile("Logs/log-{Date}.txt");
+
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
@@ -73,12 +88,13 @@ namespace WEB_953505_KORZUN
                 // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
                 app.UseHsts();
             }
+            app.UseSession();
 
             app.UseHttpsRedirection();
             app.UseStaticFiles();
 
             app.UseRouting();
-
+            app.UseFileLogging();
             app.UseAuthentication();
             app.UseAuthorization();
             DbInitializer.Seed(context, userManager, roleManager).Wait();

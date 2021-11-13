@@ -20,6 +20,13 @@
     <None Remove="MySql.EntityFrameworkCore" />
     <None Remove="TagHelpers\" />
     <None Remove="Extensions\" />
+    <None Remove="Areas\Admin\" />
+    <None Remove="Areas\Admin\Pages\" />
+    <None Remove="Microsoft.EntityFrameworkCore.Sqlite" />
+    <None Remove="Scripts\" />
+    <None Remove="Services\" />
+    <None Remove="Serilog.Extensions.Logging.File" />
+    <None Remove="Middleware\" />
   </ItemGroup>
   <ItemGroup>
     <None Update="app.db" CopyToOutputDirectory="PreserveNewest" ExcludeFromSingleFile="true" />
@@ -41,6 +48,8 @@
     <PackageReference Include="Microsoft.AspNet.Mvc" Version="5.2.7" />
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="5.0.2" />
     <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="5.0.2" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="5.0.12" />
+    <PackageReference Include="Serilog.Extensions.Logging.File" Version="2.0.0" />
   </ItemGroup>
 
   <ItemGroup>
@@ -57,5 +66,10 @@
     <Folder Include="Entities\" />
     <Folder Include="TagHelpers\" />
     <Folder Include="Extensions\" />
+    <Folder Include="Areas\Admin\" />
+    <Folder Include="Areas\Admin\Pages\" />
+    <Folder Include="Scripts\" />
+    <Folder Include="Services\" />
+    <Folder Include="Middleware\" />
   </ItemGroup>
 </Project>
