@@ -1,0 +1,12 @@
+/Users/adam/Desktop/igi-5sem/WEB_953505_KORZUN/WEB_953505_KORZUN.Blazor/Shared/bin/Debug/net5.0/WEB_953505_KORZUN.Blazor.Shared.deps.json
+/Users/adam/Desktop/igi-5sem/WEB_953505_KORZUN/WEB_953505_KORZUN.Blazor/Shared/bin/Debug/net5.0/WEB_953505_KORZUN.Blazor.Shared.dll
+/Users/adam/Desktop/igi-5sem/WEB_953505_KORZUN/WEB_953505_KORZUN.Blazor/Shared/bin/Debug/net5.0/ref/WEB_953505_KORZUN.Blazor.Shared.dll
+/Users/adam/Desktop/igi-5sem/WEB_953505_KORZUN/WEB_953505_KORZUN.Blazor/Shared/bin/Debug/net5.0/WEB_953505_KORZUN.Blazor.Shared.pdb
+/Users/adam/Desktop/igi-5sem/WEB_953505_KORZUN/WEB_953505_KORZUN.Blazor/Shared/obj/Debug/net5.0/WEB_953505_KORZUN.Blazor.Shared.csproj.AssemblyReference.cache
+/Users/adam/Desktop/igi-5sem/WEB_953505_KORZUN/WEB_953505_KORZUN.Blazor/Shared/obj/Debug/net5.0/WEB_953505_KORZUN.Blazor.Shared.GeneratedMSBuildEditorConfig.editorconfig
+/Users/adam/Desktop/igi-5sem/WEB_953505_KORZUN/WEB_953505_KORZUN.Blazor/Shared/obj/Debug/net5.0/WEB_953505_KORZUN.Blazor.Shared.AssemblyInfoInputs.cache
+/Users/adam/Desktop/igi-5sem/WEB_953505_KORZUN/WEB_953505_KORZUN.Blazor/Shared/obj/Debug/net5.0/WEB_953505_KORZUN.Blazor.Shared.AssemblyInfo.cs
+/Users/adam/Desktop/igi-5sem/WEB_953505_KORZUN/WEB_953505_KORZUN.Blazor/Shared/obj/Debug/net5.0/WEB_953505_KORZUN.Blazor.Shared.csproj.CoreCompileInputs.cache
+/Users/adam/Desktop/igi-5sem/WEB_953505_KORZUN/WEB_953505_KORZUN.Blazor/Shared/obj/Debug/net5.0/WEB_953505_KORZUN.Blazor.Shared.dll
+/Users/adam/Desktop/igi-5sem/WEB_953505_KORZUN/WEB_953505_KORZUN.Blazor/Shared/obj/Debug/net5.0/ref/WEB_953505_KORZUN.Blazor.Shared.dll
+/Users/adam/Desktop/igi-5sem/WEB_953505_KORZUN/WEB_953505_KORZUN.Blazor/Shared/obj/Debug/net5.0/WEB_953505_KORZUN.Blazor.Shared.pdb

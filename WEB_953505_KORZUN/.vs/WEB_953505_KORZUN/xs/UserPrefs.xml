@@ -1,61 +1,25 @@
-﻿<Properties StartupConfiguration="{9A81843C-EF04-4495-A19A-A184DB517623}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="WEB_953505_KORZUN/Controllers/ImageController.cs">
+﻿<Properties StartupConfiguration="{27F14584-6E7A-41D2-B7DE-DBEDED918757}|Default">
+  <MonoDevelop.Ide.ItemProperties.WEB__953505__KORZUN.Blazor.Server PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="WEB_953505_KORZUN.Blazor/Client/Components/ProductDetails.razor">
     <Files>
-      <File FileName="WEB_953505_KORZUN/Program.cs" Line="9" Column="1" />
-      <File FileName="WEB_953505_KORZUN/wwwroot/lab1.html" />
-      <File FileName="WEB_953505_KORZUN/wwwroot/css/site.css" />
-      <File FileName="WEB_953505_KORZUN/Startup.cs" />
-      <File FileName="WEB_953505_KORZUN/Controllers/HomeController.cs" />
-      <File FileName="WEB_953505_KORZUN/Views/_ViewImports.cshtml" />
-      <File FileName="WEB_953505_KORZUN/Views/_ViewStart.cshtml" />
-      <File FileName="WEB_953505_KORZUN/Views/Shared/_Layout.cshtml" />
-      <File FileName="WEB_953505_KORZUN/Views/Shared/_LoginPartial.cshtml" />
-      <File FileName="WEB_953505_KORZUN/Views/Home/Index.cshtml" />
-      <File FileName="WEB_953505_KORZUN/Views/Shared/_ValidationScriptsPartial.cshtml" />
-      <File FileName="WEB_953505_KORZUN/Models/ErrorViewModel.cs" />
-      <File FileName="WEB_953505_KORZUN/Models/MenuItem.cs" />
-      <File FileName="WEB_953505_KORZUN/Components/MenuViewComponent.cs" />
-      <File FileName="WEB_953505_KORZUN/Components/CartViewComponent.cs" />
-      <File FileName="WEB_953505_KORZUN/Views/Shared/_Layout (copy).cshtml" />
-      <File FileName="WEB_953505_KORZUN/Views/Shared/Components/Menu/Default.cshtml" />
-      <File FileName="WEB_953505_KORZUN/Entities/ApplicationUser.cs" />
-      <File FileName="WEB_953505_KORZUN/Data/ApplicationDbContext.cs" />
-      <File FileName="WEB_953505_KORZUN/appsettings.json" />
-      <File FileName="WEB_953505_KORZUN/libman.json" Line="14" Column="2" />
-      <File FileName="WEB_953505_KORZUN/Migrations/ApplicationDbContextModelSnapshot.cs" />
-      <File FileName="WEB_953505_KORZUN/Data/DbInitializer.cs" />
-      <File FileName="WEB_953505_KORZUN/app.db" />
-      <File FileName="WEB_953505_KORZUN/Areas/Identity/Pages/Account/Register.cshtml" Line="38" Column="34" />
-      <File FileName="WEB_953505_KORZUN/ScaffoldingReadMe.txt" />
-      <File FileName="WEB_953505_KORZUN/Areas/Identity/Pages/Account/Login.cshtml" />
-      <File FileName="WEB_953505_KORZUN/Areas/Identity/Pages/_ViewImports.cshtml" />
-      <File FileName="WEB_953505_KORZUN/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml" />
-      <File FileName="WEB_953505_KORZUN/Areas/Identity/Pages/_ViewStart.cshtml" />
-      <File FileName="WEB_953505_KORZUN/Areas/Identity/Pages/IdentityHostingStartup.cs" />
-      <File FileName="WEB_953505_KORZUN/Migrations/20211018154257_Initial.cs" />
-      <File FileName="WEB_953505_KORZUN/Areas/Identity/Pages/Account/Register.cshtml.cs" />
-      <File FileName="WEB_953505_KORZUN/Areas/Identity/Pages/Account/_ViewImports.cshtml" />
-      <File FileName="WEB_953505_KORZUN/Areas/Identity/Pages/Account/Login.cshtml.cs" />
-      <File FileName="WEB_953505_KORZUN/Areas/Identity/Pages/Account/Logout.cshtml.cs" />
-      <File FileName="WEB_953505_KORZUN/Areas/Identity/Pages/Account/Logout.cshtml" />
-      <File FileName="WEB_953505_KORZUN/Views/Shared/_UserPartial.cshtml" />
-      <File FileName="WEB_953505_KORZUN/Controllers/ImageController.cs" Line="1" Column="1" />
+      <File FileName="WEB_953505_KORZUN.Blazor/Server/Program.cs" Line="16" Column="1" />
+      <File FileName="WEB_953505_KORZUN.Blazor/Client/App.razor" Line="1" Column="1" />
+      <File FileName="WEB_953505_KORZUN.Blazor/Client/Pages/ApiDemo.razor" Line="9" Column="36" />
+      <File FileName="WEB_953505_KORZUN.Blazor/Server/Startup.cs" Line="1" Column="1" />
+      <File FileName="WEB_953505_KORZUN.Blazor/Client/Program.cs" Line="1" Column="1" />
+      <File FileName="WEB_953505_KORZUN.Blazor/Client/Pages/Counter.razor" Line="1" Column="1" />
+      <File FileName="WEB_953505_KORZUN.Blazor/Client/Components/ProductsList.razor" Line="1" Column="1" />
+      <File FileName="WEB_953505_KORZUN.Blazor/Client/Components/ProductDetails.razor" Line="1" Column="5" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="WEB_953505_KORZUN" expanded="True">
-            <Node name="WEB_953505_KORZUN" expanded="True">
-              <Node name="Areas" expanded="True">
-                <Node name="Identity" expanded="True">
-                  <Node name="Pages" expanded="True">
-                    <Node name="Account" expanded="True" />
-                  </Node>
-                </Node>
+            <Node name="WEB_953505_KORZUN.Blazor.Client" expanded="True">
+              <Node name="Components" expanded="True">
+                <Node name="ProductDetails.razor" selected="True" />
               </Node>
-              <Node name="Controllers" expanded="True">
-                <Node name="ImageController.cs" selected="True" />
-              </Node>
+              <Node name="Pages" expanded="True" />
             </Node>
           </Node>
         </State>
