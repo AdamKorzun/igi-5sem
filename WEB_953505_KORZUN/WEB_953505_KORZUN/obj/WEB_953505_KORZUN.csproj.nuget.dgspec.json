@@ -14,7 +14,7 @@
         "outputPath": "/Users/adam/Desktop/igi-5sem/WEB_953505_KORZUN/WEB_953505_KORZUN/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/adam/.config/NuGet/NuGet.Config"
+          "/Users/adam/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"

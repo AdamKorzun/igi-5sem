@@ -26,8 +26,15 @@ using WEB_953505_KORZUN.Models;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 3 "/Users/adam/Desktop/igi-5sem/WEB_953505_KORZUN/WEB_953505_KORZUN/Views/_ViewImports.cshtml"
+using WEB_953505_KORZUN.Entities;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"b1870d0417e7ba0248cdf795fba5a318290500e5", @"/Views/Shared/Components/Menu/Default.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"d619ce87d478ab0c4af2d465c6019fa0c31bd2d2", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"5a3f6ed38c52387d4b634a719ed573730ec7da47", @"/Views/_ViewImports.cshtml")]
     public class Views_Shared_Components_Menu_Default : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<IEnumerable<MenuItem>>
     {
         #line hidden
@@ -73,7 +80,7 @@ using WEB_953505_KORZUN.Models;
 #line hidden
 #nullable disable
             WriteLiteral("            ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b1870d0417e7ba0248cdf795fba5a318290500e53683", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b1870d0417e7ba0248cdf795fba5a318290500e53882", async() => {
                 WriteLiteral("\n                ");
 #nullable restore
 #line 15 "/Users/adam/Desktop/igi-5sem/WEB_953505_KORZUN/WEB_953505_KORZUN/Views/Shared/Components/Menu/Default.cshtml"
@@ -138,7 +145,7 @@ AddHtmlAttributeValue(" ", 298, item.Active, 299, 12, false);
 #line hidden
 #nullable disable
             WriteLiteral("            ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b1870d0417e7ba0248cdf795fba5a318290500e57103", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b1870d0417e7ba0248cdf795fba5a318290500e57302", async() => {
                 WriteLiteral("\n                ");
 #nullable restore
 #line 23 "/Users/adam/Desktop/igi-5sem/WEB_953505_KORZUN/WEB_953505_KORZUN/Views/Shared/Components/Menu/Default.cshtml"

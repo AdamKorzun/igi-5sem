@@ -176,3 +176,5 @@
 /Users/adam/Desktop/igi-5sem/WEB_953505_KORZUN/WEB_953505_KORZUN/obj/Debug/net5.0/Razor/Areas/Identity/Pages/Account/_ViewImports.cshtml.g.cs
 /Users/adam/Desktop/igi-5sem/WEB_953505_KORZUN/WEB_953505_KORZUN/obj/Debug/net5.0/Razor/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml.g.cs
 /Users/adam/Desktop/igi-5sem/WEB_953505_KORZUN/WEB_953505_KORZUN/obj/Debug/net5.0/Razor/Areas/Identity/Pages/_ViewImports.cshtml.g.cs
+/Users/adam/Desktop/igi-5sem/WEB_953505_KORZUN/WEB_953505_KORZUN/obj/Debug/net5.0/Razor/Views/Product/Index.cshtml.g.cs
+/Users/adam/Desktop/igi-5sem/WEB_953505_KORZUN/WEB_953505_KORZUN/obj/Debug/net5.0/Razor/Views/Product/_ListItemPartial.cshtml.g.cs
