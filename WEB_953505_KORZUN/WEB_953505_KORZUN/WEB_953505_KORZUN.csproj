@@ -18,6 +18,8 @@
     <None Remove="MySql.Data.EntityFrameworkCore" />
     <None Remove="Pomelo.EntityFrameworkCore.MySql" />
     <None Remove="MySql.EntityFrameworkCore" />
+    <None Remove="TagHelpers\" />
+    <None Remove="Extensions\" />
   </ItemGroup>
   <ItemGroup>
     <None Update="app.db" CopyToOutputDirectory="PreserveNewest" ExcludeFromSingleFile="true" />
@@ -53,5 +55,7 @@
     <Folder Include="Views\Shared\Components\Menu\" />
     <Folder Include="Views\Shared\Components\Cart\" />
     <Folder Include="Entities\" />
+    <Folder Include="TagHelpers\" />
+    <Folder Include="Extensions\" />
   </ItemGroup>
 </Project>
